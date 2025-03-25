@@ -1,0 +1,20 @@
+.sectionAuthor{
+    background-color: var(--color-black);
+    color: white;
+    padding: 30px 40px 0px 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    max-width: 60%;
+}
+
+
+
+.image {
+    width: 15%;
+    height: auto;
+    border-radius: 4px;
+  }
