@@ -3,7 +3,7 @@ import author from '../assets/img/author.png';
 
 const AuthorSection: React.FC = () => {
   return (
-    <div className={styles.sectionAuthor}>
+    <div className={styles.sectionAuthor} id='auteur'>
       <img src={author} alt="Auteur" className={styles.image} />
       <div className={styles.container}>
         <h2 className={styles.title}>À Propos de Moi</h2>

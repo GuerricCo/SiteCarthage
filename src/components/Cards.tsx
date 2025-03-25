@@ -2,6 +2,7 @@ import React from "react";
 import styles from '../styles/Card.module.css';
 import carthaginois from '../assets/img/carthaginois.png';
 import egyptien from '../assets/img/egyptien.png';
+import grece from '../assets/img/grece.png';
 import romain from '../assets/img/Romain.png';
 import parthenon from '../assets/img/parthenon.png';
 
@@ -54,7 +55,7 @@ const Cards: React.FC = () => {
       historicalFigures: "Personnalités historiques proches : Ramsès II, Cléopâtre, Imhotep."
     },
     {
-      image: carthaginois,
+      image: grece,
       title: "Le Penseur Grec : Philosophie et savoir avant tout",
       description: "Vous appartenez à un monde de rites, de symboles et de traditions sacrées. Pour vous, la vie et la mort ne sont que des étapes d'un cycle plus grand. Vous êtes en quête de stabilité, de sagesse et d'une vérité cachée derrière le visible. Vous avez une âme mystique, profonde et attachée aux valeurs ancestrales.",
       icon: parthenon,

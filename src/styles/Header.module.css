@@ -5,6 +5,10 @@
     width: calc(100% - 100px);
   }
 
+  .cadille{
+    font-size: 2rem;
+  }
+
   .nav{
     display: flex;
     justify-content: space-between;
@@ -24,7 +28,7 @@
   
   .navList {
     display: flex;
-    gap: 4rem;
+    gap: 8rem;
     list-style: none;
     padding: 0;
   }

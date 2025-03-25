@@ -30,7 +30,7 @@ const Header: React.FC = () => {
             <a href="#newsletter" className={styles.navLink}>Newsletter</a>
           </li>
           <li className={styles.li}>
-            <a href="#cart" className={styles.navLink}>🛒</a>
+            <a href="https://www.youtube.com/results?search_query=+h%C3%A9berger+reactJS+sur+hostinger" target='blanck' className={styles.cadille} id='cadille'>🛒</a>
           </li>
         </ul>
       </nav>

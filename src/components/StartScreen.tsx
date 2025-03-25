@@ -8,7 +8,7 @@ const StartScreen = () => {
   const [startQuiz, setStartQuiz] = useState(false);
 
   return (
-    <div className={styles.startScreen}>
+    <div className={styles.startScreen} id='quizz'>
       <div className={styles.container}>
         <div className={styles.titleLogo}>
           <img className={styles.logo} src={logo} alt="Logo" />

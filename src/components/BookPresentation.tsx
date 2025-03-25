@@ -3,7 +3,7 @@ import livre from '../assets/img/livre.png';
 
 const BookPresentation: React.FC = () => {
   return (
-    <div className={styles.sectionBook}>
+    <div className={styles.sectionBook} id='livre'>
       <h2 className={styles.title}>LES LARMES DU MOLOSSE</h2>
       <div className={styles.container}>
         <div className={styles.content}>

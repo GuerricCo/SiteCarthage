@@ -1,0 +1,89 @@
+
+
+  .saviezVous {
+    background-color: var(--color-brown);
+    color: white;
+    padding: 4% 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    max-width: 1024px;
+    width: 100%;
+  }
+  
+  .item {
+    grid-column: span 2;
+  }
+  
+  @media (min-width: 768px) {
+    .item {
+        grid-column: span 1;
+      }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      max-width: 1024px;
+      width: 100%;
+    }
+    .item:last-child:nth-child(odd) {
+      grid-column: span 2;
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .button {
+    width: 100%;
+    background-color: var(--color-beige);
+    color: var(--color-black);
+    padding: 16px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: var(--color-beige);
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .content {
+    padding: 16px;
+    background-color: var(--color-beige);
+    color: black;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .titleLogo {
+    display: flex;
+    align-items: center;
+    margin:0 0 4% 0;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+}
