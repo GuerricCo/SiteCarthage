@@ -1,20 +1,46 @@
-.sectionAuthor{
+.sectionAuthor {
     background-color: var(--color-black);
     color: white;
     padding: 30px 40px 0px 40px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-.container{
+    flex-wrap: wrap;
+  }
+  
+  .container {
     max-width: 60%;
-}
-
-
-
-.image {
+  }
+  
+  .image {
     width: 15%;
     height: auto;
     border-radius: 4px;
   }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .sectionAuthor {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image {
+      width: 40%;
+      margin-bottom: 20px;
+    }
+  
+    .container {
+      max-width: 90%;
+      text-align: center;
+    }
+  
+    .title {
+      margin-bottom: 15px;
+    }
+  
+    .description {
+      line-height: 1.6;
+    }
+  }
+  
