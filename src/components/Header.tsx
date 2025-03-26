@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styles from '../styles/Header.module.css';
 import logo from '../assets/img/logo_larme_molosse_white.png';
 
 const Header: React.FC = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  // Fonction pour gérer l'ouverture/fermeture du menu burger
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
@@ -11,9 +18,15 @@ const Header: React.FC = () => {
           <img src={logo} alt="Logo" />
         </div>
 
-        {/* NAVIGATION */}
+        {/* Menu burger */}
+        <div className={styles.burger} onClick={toggleMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
 
-        <ul className={styles.navList}>
+        {/* NAVIGATION */}
+        <ul className={`${styles.navList} ${isMenuOpen ? styles.active : ''}`}>
           <li className={styles.li}>
             <a href="#livre" className={styles.navLink}>Le Livre</a>
           </li>

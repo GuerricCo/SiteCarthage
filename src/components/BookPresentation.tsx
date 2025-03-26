@@ -6,6 +6,7 @@ const BookPresentation: React.FC = () => {
     <div className={styles.sectionBook} id='livre'>
       <h2 className={styles.title}>LES LARMES DU MOLOSSE</h2>
       <div className={styles.container}>
+        <img src={livre} alt="Les Larmes du Molosse" className={styles.image} />
         <div className={styles.content}>
           <p className={styles.description}>
             Après un demi-siècle de paix fragile, l'Aigle romain déploie à nouveau ses ailes.
@@ -17,14 +18,10 @@ const BookPresentation: React.FC = () => {
             il découvre que son destin est indissociable de la fin d'une époque… pour le meilleur comme
             pour le pire.
           </p>
-          {/* Changer le http pour amazon */}
           <button className={styles.button} onClick={() => window.open("https://www.youtube.com/watch?v=r9lwPZK4abc", "_blank")}>
-  Acheter
-</button>
-
+            Acheter
+          </button>
         </div>
-
-        <img src={livre} alt="Les Larmes du Molosse" className={styles.image} />
       </div>
     </div>
   );

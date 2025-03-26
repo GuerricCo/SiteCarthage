@@ -33,3 +33,20 @@ p{
   font-family: Crimson Text, Arial, Helvetica, sans-serif;
   text-align: center;
 }
+
+
+@media (max-width: 768px) {
+  h2{
+    font-size: 2rem;
+  }
+
+  h3{
+    font-size: 1.5;
+  }
+  p{
+    font-size: 0.8rem;
+  }
+
+
+
+}
