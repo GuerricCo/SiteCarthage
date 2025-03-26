@@ -98,12 +98,12 @@
 
 @media (max-width: 768px) {
   .modalContent {
-    width: 95%; /* Légèrement plus large pour les petits écrans */
-    max-width: 600px; /* Limite la taille sur les très petits écrans */
+    width: 95%;
+    max-width: 600px;
   }
 
   .modalContent iframe {
-    max-height: 60vh; /* Réduit la hauteur de l'iframe pour les petits écrans */
+    max-height: 60vh;
   }
   .footer {
     flex-direction: column;
