@@ -17,7 +17,11 @@ const BookPresentation: React.FC = () => {
             il découvre que son destin est indissociable de la fin d'une époque… pour le meilleur comme
             pour le pire.
           </p>
-          <button className={styles.button}>Acheter</button>
+          {/* Changer le http pour amazon */}
+          <button className={styles.button} onClick={() => window.open("https://www.youtube.com/watch?v=r9lwPZK4abc", "_blank")}>
+  Acheter
+</button>
+
         </div>
 
         <img src={livre} alt="Les Larmes du Molosse" className={styles.image} />

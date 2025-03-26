@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import StartScreen from './components/StartScreen';
 import CardSection from './components/CardSection';
 import SaviezVous from './components/SaviezVous';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <StartScreen/>
       <CardSection/>
       <SaviezVous/>
+      <Footer/>
     </div>
   );
 };
